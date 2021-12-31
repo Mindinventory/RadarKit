@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 To install it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'RadarKit', git: 'https://github.com/parthgohel2810/RadarKit.git', branch: 'development'
+pod 'RadarKit', git: 'https://github.com/parthgohel2810/RadarKit.git', branch: 'main'
 ```
 ## Usage
 
