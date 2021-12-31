@@ -6,6 +6,6 @@ target 'Example' do
   use_frameworks!
 
   # Pods for Example
- pod 'RadarKit', git: 'https://github.com/parthgohel2810/RadarKit.git', branch: 'development'
+ pod 'RadarKit', git: 'https://github.com/parthgohel2810/RadarKit.git', branch: 'main'
 
 end
