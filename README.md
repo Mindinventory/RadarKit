@@ -12,8 +12,10 @@
 </a>
 
 <p></p>
+Discover the world around you using the RadarKit..!!!
 
-## Example
+## Preview
+
 ![IMG_9422 2](https://j.gifs.com/mq8EkA.gif)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory.
