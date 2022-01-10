@@ -14,7 +14,7 @@
 <p></p>
 
 ## Example
-![](/Screenshots/radar_example_1.mov) ![](/Screenshots/radar_example_3.mov) 
+![IMG_9422 2](https://j.gifs.com/mq8EkA.gif)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory.
 <br />
@@ -82,6 +82,8 @@ The color of the on status of the circle, used for animation
 
 ##### animationDuration
 The duration of the animation, the default value is 0.9
+<br />
+You can start/ stop the animation at any time by calling `startAnimation()` & `stopAnimation()`
 
 #### isRotateRingAnimation
 Allows circle to rotate, used for animation
@@ -89,22 +91,18 @@ Allows circle to rotate, used for animation
 #### dotColor
 The color of the two dots which place at two end of circle,
 
-<br />
-You can start/ stop the animation at any time by calling `startAnimation()` & `stopAnimation()`
-
 ##### paddingBetweenItems
 The padding between items, the default value is 10
 
-#### Add items 
+## Add items 
 If you would like to add one item, use the method `add(item:using:)`
-If you would like to add multiple items, it's recommended to use the method `add(items:using:)`
+If you would like to add multiple items, it's recommended to use the method `add(items:using:)` for more detail and information please refer `Example` project
 
-#### remove item 
-If you would like to remove an item, use the method `remove(item:)`
+#### remove an item 
+For removal of an item, use the method `remove(item:)`
 
-#### Custom item 
+#### Customise an item 
 If you would like to customize items, use the protocol `RadarViewDataSource` and implement: 
-
 
 ```swift
 radarView?.dataSource = self 
@@ -116,7 +114,7 @@ func radarView(radarView: RadarView, viewFor item: Item, preferredSize: CGSize) 
 ```
 
 #### CallBack
-If you would like to receive action on items, use the protocol `RadarViewDelegate` and implement: 
+Action on items can be detected using the protocol `RadarViewDelegate` and implement: 
 ```swift
 radarView?.delegate = self 
 ...
