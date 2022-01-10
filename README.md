@@ -16,7 +16,7 @@ Discover the world around you using the RadarKit..!!!
 
 ## Preview
 
-![IMG_9422 2](https://j.gifs.com/mq8EkA.gif)
+![gif](/Screenshots/RadarView.gif)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory.
 <br />
