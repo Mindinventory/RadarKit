@@ -12,7 +12,9 @@
 </a>
 
 <p></p>
-Discover the world around you using the RadarKit..!!!
+Discover the world around you..!!!
+
+The Radar Kit allowing you to locate places, trip neary by you Or it will help you to search out the people around you with the few lines of code..!!! 
 
 ## Preview
 
