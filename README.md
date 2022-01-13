@@ -10,13 +10,13 @@
 <a href="https://github.com/nikunjprajapati95/Reading-Animation/blob/main/LICENSE" style="pointer-events: stroke;" target="_blank">
 <img src="https://img.shields.io/badge/licence-MIT-orange">
 </a>
-
-<p></p>
-Discover the world around you..!!!
-
-The Radar Kit allowing you to locate places, trip neary by you Or it will help you to search out the people around you with the few lines of code..!!! 
+<p></p> 
 
 ## Preview
+
+Discover the world around you..!!!
+
+The Radar Kit allowing you to locate places, trip neary by you Or it will help you to search out the people around you with the few lines of code..!!!
 
 ![gif](/Screenshots/RadarView.gif)
 
