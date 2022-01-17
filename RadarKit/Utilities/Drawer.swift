@@ -47,7 +47,7 @@ struct Drawer {
 
         let layer = CAShapeLayer()
         let radius = 4.0
-        let path = UIBezierPath(ovalIn: CGRect(x: point.x-radius, y: point.y-radius, width: 2*radius, height: 2*radius))
+        let path = UIBezierPath(ovalIn: CGRect(x: point.x.toDouble() - radius, y: point.y.toDouble() - radius, width: 2*radius, height: 2*radius))
         layer.path = path.cgPath
         layer.fillColor = fillColor
         return layer

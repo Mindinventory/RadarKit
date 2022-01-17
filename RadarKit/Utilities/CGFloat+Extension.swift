@@ -10,12 +10,19 @@ extension CGFloat {
     var degreeToRadiun: Self {
         .pi*self/180
     }
-
+    
+    func toDouble() -> Double {
+        Double(self)
+    }
 }
 
 extension Double {
     
     var aspectToWidth: Self {
-        self*UIScreen.main.bounds.width/375
+        self*UIScreen.main.bounds.width.toDouble()/375
+    }
+    
+    func toCGFloat() -> CGFloat {
+       CGFloat(self)
     }
 }
