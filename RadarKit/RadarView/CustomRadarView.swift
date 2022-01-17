@@ -8,11 +8,11 @@ import Foundation
 import UIKit
 
 public final class CustomRadarView: RadarView {
-
+    
     public var lightRadarView: RadarView = RadarView()
     private var lightAngles: [Angle] = []
     private var angles: [Angle] = []
-
+    
     @IBInspectable public override var numberOfCircles: Int {
         didSet {
             lightRadarView.numberOfCircles = self.numberOfCircles*2
@@ -23,17 +23,17 @@ public final class CustomRadarView: RadarView {
     
     @IBInspectable public var paddingBetweenCircle: Double = 40 {
         didSet {
-            paddingBetweenCircles = paddingBetweenCircle.aspectToWidth
-            lightRadarView.paddingBetweenCircles = (paddingBetweenCircle/2).aspectToWidth
+            paddingBetweenCircles = paddingBetweenCircle.aspectToWidth.toCGFloat()
+            lightRadarView.paddingBetweenCircles = (paddingBetweenCircle/2).aspectToWidth.toCGFloat()
         }
     }
-
+    
     @IBInspectable public override var isRotateRingAnimation: Bool {
         didSet {
             lightRadarView.isRotateRingAnimation = isRotateRingAnimation
         }
     }
-
+    
     public override func awakeFromNib() {
         super.awakeFromNib()
         configureLightRadarView()
@@ -41,9 +41,9 @@ public final class CustomRadarView: RadarView {
 }
 
 extension CustomRadarView {
-
+    
     private func configureLightRadarView() {
-
+        
         lightRadarView.translatesAutoresizingMaskIntoConstraints = false
         addSubview(lightRadarView)
         NSLayoutConstraint.activate(
@@ -56,17 +56,17 @@ extension CustomRadarView {
         )
         configureRings()
     }
-
+    
     private func configureRings() {
-
+        
         lightRadarView.diskRadius = 0.0
-        lightRadarView.dotColor = .lightRingStroke.filterNil
-        lightRadarView.circleOnColor = .lightRingOnColor.filterNil
-        lightRadarView.circleOffColor = .lightRingStroke.filterNil
+        lightRadarView.dotColor = UIColor.lightRingStroke.filterNil
+        lightRadarView.circleOnColor = UIColor.lightRingOnColor.filterNil
+        lightRadarView.circleOffColor = UIColor.lightRingStroke.filterNil
         lightRadarView.paddingBetweenItems = 0
         lightRadarView.isRotateRingAnimation = isRotateRingAnimation
     }
-
+    
     private func configureCircleArc() {
         angles.removeAll()
         for index in 0 ..< numberOfCircles {
@@ -75,7 +75,7 @@ extension CustomRadarView {
         }
         self.circleArc = angles
     }
-
+    
     private func configurelightCircleArc() {
         lightAngles.removeAll()
         for index in 0 ..< numberOfCircles {
