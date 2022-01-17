@@ -12,9 +12,9 @@ spec.homepage     = "https://github.com/parthgohel2810/RadarKit.git"
 spec.license      = { :type => "MIT", :file => "LICENSE" }
 spec.author             = { "Parth Gohel" => "parth.gohel@mindinventory.com" }
 spec.platform     = :ios
-spec.platform     = :ios, "13.0"
+spec.platform     = :ios, "12.0"
 spec.swift_version = '5.0'
-spec.ios.deployment_target = '13.0'
+spec.ios.deployment_target = '12.0'
 
 spec.source       = { :git => "https://github.com/parthgohel2810/RadarKit.git", :tag => "#{spec.version}" }
 
