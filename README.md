@@ -23,8 +23,8 @@ The Radar Kit allowing you to locate places, trip neary by you Or it will help y
 To run the example project, clone the repo, and run `pod install` from the Example directory.
 <br />
 ## Requirements
-- iOS 13.0+
-- Xcode 13.0
+- iOS 12.0+
+- Xcode 12.0+
 
 ## Installation
 To install it, simply add the following line to your Podfile:
