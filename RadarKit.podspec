@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "RadarKit"
-spec.version      = "0.0.1"
+spec.version      = "1.0.0"
 spec.summary      = "RadarKit allows you to add radar effect to find nearby user"
 spec.description  = <<-DESC
 RadarKit allows you to add radar effect to find nearby user
