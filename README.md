@@ -128,5 +128,4 @@ radarView?.delegate = self
 ```
 
 ## License
-
-RadarKit is available under the MIT license. See the LICENSE file for more info.
+MI-RadarKit is [MIT-licensed](/LICENSE).
