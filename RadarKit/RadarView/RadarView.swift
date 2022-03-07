@@ -78,7 +78,8 @@ public class RadarView: RippleView {
     private var itemRadius: CGFloat {
         return paddingBetweenCircles / 3
     }
-    
+    public var enableRippleEffect:Bool = false
+
     private var currentItemView: ItemView? {
         didSet {
             if oldValue != nil && currentItemView != nil {
@@ -197,11 +198,11 @@ public class RadarView: RippleView {
         itemView.layer.add(hide, forKey: nil)
         itemView.layer.add(anim, forKey: nil)
         
-        let pulse1 = PulseAnimation(numberOfPulse: Float.infinity, radius: 60, postion: itemView.center)
+        let pulse1 = PulseAnimation(numberOfPulse: Float.infinity, radius: 60, postion: itemView.center, RippleEffect: self.enableRippleEffect)
         pulse1.animationDuration = 2.0
         pulse1.backgroundColor = UIColor.colorBlack.filterNil.cgColor
         self.layer.insertSublayer(pulse1, below: self.layer)
-        let pulse2 = PulseAnimation(numberOfPulse: Float.infinity, radius: 60, postion: itemView.center)
+        let pulse2 = PulseAnimation(numberOfPulse: Float.infinity, radius: 60, postion: itemView.center, RippleEffect: self.enableRippleEffect)
         pulse2.animationDuration = 2.4
         pulse2.backgroundColor = UIColor.colorBlack.filterNil.cgColor
         self.layer.insertSublayer(pulse2, below: self.layer)

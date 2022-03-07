@@ -33,7 +33,6 @@ public final class CustomRadarView: RadarView {
             lightRadarView.isRotateRingAnimation = isRotateRingAnimation
         }
     }
-    var isRippleEffectEnable: Bool = false
 
     public override func awakeFromNib() {
         super.awakeFromNib()
@@ -66,7 +65,6 @@ extension CustomRadarView {
         lightRadarView.circleOffColor = UIColor.lightRingStroke.filterNil
         lightRadarView.paddingBetweenItems = 0
         lightRadarView.isRotateRingAnimation = isRotateRingAnimation
-        lightRadarView.RippleEffect = isRippleEffectEnable
 
     }
     

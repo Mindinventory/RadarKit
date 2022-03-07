@@ -56,6 +56,7 @@ extension ViewController {
         radarView.isRotateRingAnimation = true
         radarView.paddingBetweenCircle = 36
         radarView.paddingBetweenItems = 20
+        
     }
 }
 

@@ -134,7 +134,6 @@ class PulseAnimation: CALayer {
     var animationDuration: TimeInterval = 1.5
     var radius: CGFloat = 200
     var numebrOfPulse: Float = Float.infinity
-    var RippleEffect: Bool = false
 
     override init(layer: Any) {
         super.init(layer: layer)
@@ -144,7 +143,7 @@ class PulseAnimation: CALayer {
         fatalError("init(coder:) has not been implemented")
     }
     
-    init(numberOfPulse: Float = Float.infinity, radius: CGFloat, postion: CGPoint){
+    init(numberOfPulse: Float = Float.infinity, radius: CGFloat, postion: CGPoint,RippleEffect: Bool){
         super.init()
         self.backgroundColor = UIColor.black.cgColor
         self.contentsScale = UIScreen.main.scale
