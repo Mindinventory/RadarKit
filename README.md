@@ -64,28 +64,28 @@ let radarView = CustomRadarView(frame: myFrame)
     }
 ```
 
-##### diskRadius
+#### diskRadius
 The radius of the central disk in the view, if you would like to hide it, you can set the radius to 0
 
-##### diskColor
+#### diskColor
 The color of the central disk in the view, the default color is ripplePink color
 
-##### minimumCircleRadius
+#### minimumCircleRadius
 This property make distance between the first circle and the central disk  
 
-##### numberOfCircles
+#### numberOfCircles
 The number of circles to draw around the disk, the default value is 3
 
-##### paddingBetweenCircle
+#### paddingBetweenCircle
 The padding between circles, circles could be drawn outside the frame 
 
-##### circleOffColor
+#### circleOffColor
 The color of the off status of the circle, used for animation
 
-##### circleOnColor
+#### circleOnColor
 The color of the on status of the circle, used for animation
 
-##### animationDuration
+#### animationDuration
 The duration of the animation, the default value is 0.9
 <br />
 You can start/ stop the animation at any time by calling `startAnimation()` & `stopAnimation()`
@@ -96,7 +96,7 @@ Allows circle to rotate, used for animation
 #### dotColor
 The color of the two dots which place at two end of circle,
 
-##### paddingBetweenItems
+#### paddingBetweenItems
 The padding between items, the default value is 10
 
 #### remove Ripple effect behind the item
