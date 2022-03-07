@@ -134,7 +134,8 @@ class PulseAnimation: CALayer {
     var animationDuration: TimeInterval = 1.5
     var radius: CGFloat = 200
     var numebrOfPulse: Float = Float.infinity
-    
+    var RippleEffect: Bool = false
+
     override init(layer: Any) {
         super.init(layer: layer)
     }
@@ -155,10 +156,12 @@ class PulseAnimation: CALayer {
         self.bounds = CGRect(x: 0, y: 0, width: radius*2, height: radius*2)
         self.cornerRadius = radius
         
-        DispatchQueue.global(qos: .default).async {
-            self.setupAnimationGroup()
-            DispatchQueue.main.async {
-                self.add(self.animationGroup, forKey: "pulse")
+        if(RippleEffect){
+            DispatchQueue.global(qos: .default).async {
+                self.setupAnimationGroup()
+                DispatchQueue.main.async {
+                    self.add(self.animationGroup, forKey: "pulse")
+                }
             }
         }
     }

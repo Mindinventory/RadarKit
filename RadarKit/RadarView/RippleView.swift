@@ -36,7 +36,8 @@ public class RippleView: UIView {
     /// The timer used to start / stop disk animation
     private var diskAnimationTimer: Timer?
     private var rotateCircleAnimationTimer: Timer?
-    
+    public var RippleEffect: Bool = false
+
     // MARK: Internal properties
     
     /// The maximum possible radius of circle
