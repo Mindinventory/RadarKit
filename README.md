@@ -60,6 +60,7 @@ let radarView = CustomRadarView(frame: myFrame)
         radarView.isRotateRingAnimation = true
         radarView.paddingBetweenCircle = 36
         radarView.paddingBetweenItems = 20
+        radarView.enableRippleEffect = false
     }
 ```
 
@@ -107,6 +108,9 @@ For removal of an item, use the method `remove(item:)`
 
 #### Customise an item 
 If you would like to customize items, use the protocol `RadarViewDataSource` and implement: 
+
+#### remove Ripple effect behind the item
+For removal of Ripple effect use `enableRippleEffect` property
 
 ```swift
 radarView?.dataSource = self 
