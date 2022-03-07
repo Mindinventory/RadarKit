@@ -99,6 +99,9 @@ The color of the two dots which place at two end of circle,
 ##### paddingBetweenItems
 The padding between items, the default value is 10
 
+#### remove Ripple effect behind the item
+For removal of Ripple effect use `enableRippleEffect` property
+
 ## Add items 
 If you would like to add one item, use the method `add(item:using:)`
 If you would like to add multiple items, it's recommended to use the method `add(items:using:)` for more detail and information please refer `Example` project
@@ -109,8 +112,6 @@ For removal of an item, use the method `remove(item:)`
 #### Customise an item 
 If you would like to customize items, use the protocol `RadarViewDataSource` and implement: 
 
-#### remove Ripple effect behind the item
-For removal of Ripple effect use `enableRippleEffect` property
 
 ```swift
 radarView?.dataSource = self 
