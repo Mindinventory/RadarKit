@@ -22,8 +22,8 @@ We have used this Pod in a project where we discover the list of languages that 
 
 ![gif](/Screenshots/Bingue.png)
 
-To run the example project, clone the repo, and run `pod install` from the Example directory.
-<br />
+Get more for UI/UX from [dribbble](https://dribbble.com/MindInventoryUIUX)<br />
+
 ## Requirements
 - iOS 12.0+
 - Xcode 12.0+
