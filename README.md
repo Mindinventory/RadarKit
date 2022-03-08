@@ -18,7 +18,7 @@ Discover the world 🌎 around you..!!!
 
 The Radar Kit allowing you to locate places, trip neary by you Or it will help you to search out the people around you with the few lines of code..!!!
 
-We have used this Pod in a project where we discover the list of languages that user want to learn which they can see like below
+The Pod has been used in a project where we discover the list of languages that user want to learn which they can see like below
 
 ![gif](/Screenshots/Bingue.png)
 
