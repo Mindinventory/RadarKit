@@ -168,7 +168,7 @@ radarView?.delegate = self
 <img src="https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white" /> </a>
 <br></br>
 
-## License
+## 📄 License
 MI-RadarKit is [MIT-licensed](/LICENSE).
 
 If you use our open-source libraries in your project, please make sure to credit us and Give a star to www.mindinventorycom
