@@ -22,7 +22,7 @@ The Pod has been used in a project where we discover the list of languages that 
 
 ![gif](/Screenshots/Bingue.png)
 
-Get more for UI/UX from [dribbble](https://dribbble.com/MindInventoryUIUX)<br />
+Get more for UI/UX from [dribbble](https://dribbble.com/shots/16466945-Bingue-App)<br />
 
 ## Requirements
 - iOS 12.0+
