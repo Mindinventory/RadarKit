@@ -147,7 +147,6 @@ radarView?.delegate = self
 
 <a href="https://github.com/Mindinventory/react-native-tabbar-interaction"> 
 <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"> </a>
-
 <br></br>
 
 ## 💻 Check out other lists of Web libraries
@@ -160,7 +159,6 @@ radarView?.delegate = self
 
 <a href="https://github.com/Mindinventory?language=python"> 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></a>
-
 <br></br>
 
 <h4><a href="https://www.mindinventory.com/whitepapers.php?utm_source=gthb&utm_medium=special&utm_campaign=folding-cell#demo"><u> 📝 Get FREE Industry WhitePapers →</u></a></h4>
@@ -168,7 +166,6 @@ radarView?.delegate = self
 ## Check out our Work
 <a href="https://dribbble.com/mindinventory"> 
 <img src="https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white" /> </a>
-
 <br></br>
 
 ## License
